@@ -32,7 +32,8 @@ a:visited {
   color: inherit; }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Muli", "Montserrat", sans-serif; }
 
 h1,
@@ -254,16 +255,16 @@ h4 {
   .section__title {
     font-size: 2.6rem;
     line-height: 3rem;
-    font-weight: 800; }
+    font-weight: 900; }
     @media (min-width: 900px) {
       .section__title {
         font-size: 3rem; } }
   .section__subtitle {
     font-size: 1.8rem;
-    font-weight: 500; }
+    font-weight: 900; }
     @media (min-width: 900px) {
       .section__subtitle {
-        font-size: 2.2rem; } }
+        font-size: 1.8rem; } }
   .section--hero {
     padding-bottom: 7.2rem;
     position: relative;
@@ -468,6 +469,14 @@ h4 {
   background-size: cover;
   background-image: linear-gradient(60deg, #1a237e 0%, #1a237e 20%, rgba(26, 35, 126, 0.9) 40%, rgba(21, 101, 192, 0.35) 100%), url("http://res.cloudinary.com/mvasigh/image/upload/c_scale,w_900/v1528287062/dfcguide_1024.png"); }
 
-.project-card--hoops {
-  background-color: #1a237e;
-  background-image: linear-gradient(to top right, #00796b 30%, rgba(0, 191, 165, 0.75) 100%), url("http://celtics247.com/wp-content/uploads/2017/12/nba.2017.clutch.net_.rating.png"); }
+.project-card--statsheet {
+  background-color: #5c0047;
+  background-image: linear-gradient(60deg, #5c0047 0%, #5c0047 20%, rgba(92, 0, 71, 0.9) 40%, rgba(231, 0, 85, 0.35) 100%), url("http://celtics247.com/wp-content/uploads/2017/12/nba.2017.clutch.net_.rating.png"); }
+
+.project-card--portfolio {
+  background-color: #262626;
+  background-image: linear-gradient(60deg, #262626 0%, #262626 20%, rgba(38, 38, 38, 0.9) 40%, rgba(85, 85, 85, 0.35) 100%), url("http://res.cloudinary.com/mvasigh/image/upload/v1528460720/portfolio.png"); }
+  @media (max-width: 599px) {
+    .project-card--portfolio {
+      background-size: cover;
+      background-position: 10% 0; } }
