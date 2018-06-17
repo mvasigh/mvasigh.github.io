@@ -482,3 +482,8 @@ h4 {
     .project-card--portfolio {
       background-size: cover;
       background-position: 10% 0; } }
+
+.project-card--peakproduce {
+  background-color: #115f39;
+  background-image: linear-gradient(60deg, #115f39 0%, #115f39 20%, rgba(17, 95, 57, 0.9) 40%, rgba(0, 165, 81, 0.35) 100%), url("http://res.cloudinary.com/mvasigh/image/upload/c_scale,w_962/v1529255185/peakproduce.us_.png");
+  background-size: cover; }
